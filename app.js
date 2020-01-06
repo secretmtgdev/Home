@@ -28,6 +28,12 @@ app.use(cors());
 // Allow the application to parse json
 app.use(bodyParser.json());
 
+app.use(passport.initialize());
+app.use(passport.session());
+
+// utilize passport in the application
+require('./config/passport')(passport);
+
 // Bind the appropriate routes
 app.use('/users', users)
 

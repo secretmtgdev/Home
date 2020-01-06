@@ -13,3 +13,5 @@
 - <code>git branch -m **_deleted branch name_**</code>
 - <code>git push -f origin **_current branch name_**</code>
 
+
+Special thanks to Traversy Media for helping with the backend!
