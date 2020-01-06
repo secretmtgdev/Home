@@ -1,0 +1,94 @@
+:root {
+    --padding: 10px;
+    --hundred: 100%;
+    --navHeight: 75px;
+}
+
+html, body, main, ul {
+    height: var(--hundred);
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+main > section:nth-child(even) {
+    height: var(--hundred);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main > section:nth-child(odd) {
+    height: 50%;
+    background-color: lightgrey;
+}
+
+#fractal {
+    background-image: url(./assets/images/fractal.jpg);
+}
+
+#space {
+    background-image: url(./assets/images/space.jpg);
+}
+
+#tundra {
+    background-image: url(./assets/images/tundra.jpg);
+}
+
+/*********************************************************************
+***************** NAVIGATION STYLES *********************************
+*********************************************************************/
+header {
+    position: fixed;
+    z-index:99;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: var(--hundred);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header, nav > ul > li {
+    height: var(--navHeight);
+}
+
+nav > ul {
+    line-height: var(--navHeight);
+    text-align: end;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+
+nav > ul > li:hover {
+    background-color: rgb(0, 20, 255);
+    cursor: pointer;
+}
+
+.warning-block {
+    position: relative;
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    font-family: monospace;
+    height: var(--hundred);
+}
+
+.warning-block > .warning-block-inner {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.warning {
+    color: yellow;
+    font-weight: bold;
+    font-style: italic;
+}
