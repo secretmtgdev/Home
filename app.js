@@ -25,11 +25,11 @@ mongoose.connection.on('error', err => {
 // Allow requests to API from different domain names
 app.use(cors());
 
-// Bind the appropriate routes
-app.use('/users', users)
-
 // Allow the application to parse json
 app.use(bodyParser.json());
+
+// Bind the appropriate routes
+app.use('/users', users)
 
 // Sets the view 
 app.use(express.static(path.join(__dirname, 'public')));
