@@ -9,7 +9,6 @@ ajaxCall('GET', './views/leadership/leadership.txt', parseLeadershipFile);
  * @param {function} handler The handler function on response.
  */
 function ajaxCall(VERB, path, handler, body) {
-    console.log('making the ajax call')
     var request = new XMLHttpRequest();
     request.open(VERB, path);
     request.onreadystatechange = function() {
@@ -46,10 +45,10 @@ function parseLeadershipFile(response) {
             section = document.querySelector(`section[data-id='${target}']`);
         } else if(lines[i].includes('q:')) {
             var par = document.createElement('p');
-            par.innerText = lines[i].split(':')[1];
+            par.innerText = lines[i].split(':')[1].trimLeft();
             section.appendChild(par);
-        } else {
-            constructLeadershipBlock(section, frag, lines[i].split(':')[1]);
+        } else if(lines[i].includes('a:')) {
+            constructLeadershipBlock(section, frag, lines[i].split(':')[1].trimLeft());
         }
     }
 }

@@ -1,60 +1,89 @@
-Leadership Principle - Customer Obession
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle - Ownership
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle - Invent and Simplify
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
+Leadership Principle - Customer Obession, Tmobile
+q: What task did you face?
+a: Developing an internal tool at T-Mobile to showcase various applications and crucial information on them.
+
+q: Why was this important?
+a: This was important to Product Owners and Managers to keep track of active servers and applications running on those servers.
+
+q: What was the scope of the project?
+a: The scope of this project was restricted to all of those under Integrated Systems & Automation at T-Mobile.
+
+q: What significant obstacles did you face?
+a: The biggest obstacle faced was trying to gather all of the information as some Product Owners/Developers didn't keep documentation.
+
+q: How did you set priorites?
+a: I prioritized attaining information on each app, followed by meetings with each Product owner to see if more information could be attained, or at least a POC.
+
+q: How was success measured?
+a: Success was measured by user satisfaction and usability.
+
+q: What tradeoffs were made?
+a: I used the MEAN stack for the project as it was quick and easy but since the data was consistent SQL may have been a better choice.
+
+q: What lessons were learned?
+a: I learned a lot about the different tools that my organization has.
+
+q: What would you have done differently?
+a: I would have thought more about the structure of the data and used this knowledge to chose the appropriate DBMS.
+
+
+Leadership Principle - Ownership, Microsoft
+q: What task did you face?
+a: I was faced with the task of promoting a Microsoft Solitaire extension for Chrome and Firefox.
+
+q: Why was this important?
+a: This was important to the Bing team as we were trying to promote a new way for users to access one of their favorite games.
+
+q: What was the scope of the project?
+a: The scope of this project was 100s of thousands of people.
+
+q: What significant obstacles did you face?
+a: One of the biggest obstacles faced was a lack of communication with the POC for the extension. I looped in the POC's manager which then got the ball rolling.
+
+q: How did you set priorites?
+a: The first thing that I did was understand the purpose of the extension. After this I created mock ups for how it should look and once this was approved I implemented the design. Once this was done I dived into how to communicate with the application so that I could show the banner if a user has not installed the extension nor clicked the 'no thanks' button.
+
+q: How was success measured?
+a: Success was measured by the number of users that installed the extension. I set up the telemetry for this.
+
+q: What tradeoffs were made?
+a: One of the biggest tradeoffs was designing the banner to be desktop first as a majority of our users are accessing the site on a desktop. More time was focused on understanding browser to extension communication than styling.
+
+q: What lessons were learned?
+a: I learned a bit about how to create an extension in Chrome and how the two way communication works.
+
+q: What would you have done differently?
+a: I would have asked for all of the requirements up front, as there were continual minor asks for styling or adding an additional option to the banner.
+
+
+Leadership Principle - Invent and Simplify, Tmobile
+q: What task did you face?
+a: The task that I faced was creating a script that would help Network Engineers at T-Mobile with updating several boxes.
+
+q: Why was this important?
+a: This was important because it reduced the amount of manual work that Network Engineers had to do in order to upgrade multiple boxes to a newer version of Pronghorn (platform which hosted most of our orgs applications).
+
+q: What was the scope of the project?
+a: The scope of the project was limited to Network Engineers at T-Mobile.
+
+q: What significant obstacles did you face?
+a: One of the biggest obstacles faced was understanding the process of how the updates worked as well as using Ansible to sign on to a box and copy files over from the master box to the remote boxes.
+
+q: How did you set priorites?
+a: I worked closely with the Principal Engineer on my team to figure out a schedule in terms of which tasks and milestones we wanted to accomplish. The first task was to write a script to copy data to a box. The second was to modify data on the box. The third was to write a Python script to automate the exceution of multiple Ansible playbooks.
+
+q: How was success measured?
+a: Success was measured by a clean upgrade to Pronghorn. I was on multiple calls with the Principal Engineer, Network Engineers, and a representative from Itential to ensure that the mock runs and real deal went smoothly.
+
+q: What tradeoffs were made?
+a: Time complexity was one of the tradeoffs as we were under a time crunch and didn't have enough time to fully tune the playbooks.
+
+q: What lessons were learned?
+a: I learned more about writing Ansible Playbooks and ssh-keygen.
+
+q: What would you have done differently?
+a: I would have definitely focused a lot more time into researching Ansible to see if there were more functions that I could have utilized.
+
 Leadership Principle - Are Right, A Lot
 q:What task did you face?
 a:
