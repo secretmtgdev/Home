@@ -14,6 +14,10 @@ h2 {
     margin-top: 0;
 }
 
+main {
+    padding-top: var(--navHeight);
+}
+
 main > section:nth-child(even) {
     height: var(--hundred);
     background-attachment: fixed;
