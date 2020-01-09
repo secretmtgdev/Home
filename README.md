@@ -14,4 +14,6 @@
 - <code>git push -f origin **_current branch name_**</code>
 
 
-Special thanks to Traversy Media for helping with the backend!
+Special thanks to Brad from Traversy Media for helping with the backend! Videos 2-4 were very helpful!
+
+Follow his **_Front to Back_** series [here](https://www.youtube.com/watch?v=uONz0lEWft0&list=PLillGF-RfqbZMNtaOXJQiDebNXjVapWPZ)
