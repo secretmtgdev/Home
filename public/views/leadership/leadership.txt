@@ -84,101 +84,146 @@ a: I learned more about writing Ansible Playbooks and ssh-keygen.
 q: What would you have done differently?
 a: I would have definitely focused a lot more time into researching Ansible to see if there were more functions that I could have utilized.
 
-Leadership Principle - Are Right, A Lot
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle - Develop the Best
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle - Insist on the highest standard
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
-Leadership Principle - Think Big
-q:What task did you face?
-a:
-q:Why was this important?
-a:
-q:What was the scope of the project?
-a:
-q:What significant obstacles did you face?
-a:
-q:How did you set priorites?
-a:
-q:How was success measured?
-a:
-q:What tradeoffs were made?
-a:
-q:What lessons were learned?
-a:
-q:What would you have done differently?
-a:
+Leadership Principle - Are Right, A Lot, Microsoft
+q: What task did you face?
+a: Blocked video autoplay solution
+
+q: Why was this important?
+a: This is important since a lot of users have had a negative experience when attempting to play some of our HTML5 & flash games. Some users have reported that they will be in a continually halted stated on the site and never see an AD nor the gameframe.
+
+q: What was the scope of the project?
+a: The scope of this project is world wide as we have players from all over the world.
+
+q: What significant obstacles did you face?
+a: One of the biggest obstacles was understanding how MEI worked in Chrome and Firefox as these two browsers are the root cause of the negative user experience. Another obstacle was a dispute a couple of Engineers with regards as to how and which sorts of media Chrome and Firefox block. Fortuneately I had done my research on MDN, stackoverflow, medium, and POCs that I was able to showcase a sound argument.
+
+q: How did you set priorites?
+a: The first priority was targetting the root cause of the situation for Chrome as 60% of our user base uses this browser. The idea was to tackle this with some quick mini projects (using <video> & <audio>). Second was figuring out the cause in Firefox and then resolving these issues. After this I proposed the solutions to my manager which then was passed the information up the hierarchical chain. 
+
+q: How was success measured?
+a: Success is measured through telemetry reports on successful playthroughs of ads tied with telemetry in the solution. The less users reporting to us and the higher numbers showcasing the workaround being successful are a fantastic measurement of success.
+
+q: What tradeoffs were made?
+a: The biggest tradeoff was time allocation to other tasks from other projects. Since this has been a hot fix this has taken a higher priority.
+
+q: What lessons were learned?
+a: I learned a lot about measuring user engagement and how autoplay works in Chrome and Firefox. I also learned that when stating reasons behind an argument, confidence is crucial. If there is a hint of nervousness in ones voice then it leads others to believe that the original claim could be invalid, even if it is an obvious fact.
+
+q: What would you have done differently?
+a: One of the things that I would have done differently was argue for my solution a little more strongly. I was pulled into a room with my manager and someone, who was needed for the good to go on the approved solutions. In my argument I did fumble a little bit but I definitely know that preparation and confidence are key to making valid arguments.
+
+Leadership Principle - Develop the Best, T-Mobile
+q: What task did you face?
+a: Onboarding another Engineer onto a project of mine.
+
+q: Why was this important?
+a: This was important as it was a project that could change the way that things were done internally at T-Mobile.
+
+q: What was the scope of the project?
+a: The scope of the project is each person under the Integrated Systems &amp; automation org.
+
+q: What significant obstacles did you face?
+a: Time allocation, as the other Engineer still had a couple of other projects that she was working on. Another obstacle was exposure to the Framework, fortuneately a Senior Engineer was there to help guide us for what sorts of things were needed in order to make a solid project (unit/integration testing {mocha}, project breakdown {epic/story/task/bugs}, specialization of talents and sharing knowledge {standups/front end/back end/UX|UI design})
+
+q: How did you set priorites?
+a: I set priorities based around the base needs for the project. Tasks were stack ranked.
+
+q: How was success measured?
+a: Success was measured by the number of users and teams that we were able to convert over to our platform. We had three teams switch over.
+
+q: What tradeoffs were made?
+a: Biggest tradeoff was cost, how much time can each Engineer put into this project and how does that impact the quality. Higher ups prioritized other projects more than this one and thus quality was constricted due to this and the boxed timeframe.
+
+q: What lessons were learned?
+a: I learned a lot about the importance of Unit Testing, collaboration, and properly organizing a project and distributing tasks (with the help of JIRA).
+
+q: What would you have done differently?
+a: Given what I've gone through there I would have split tasks, between the Engineer that was onboarded under me, based off of strongest skills. For example, the other Engineer is great with layout and unit testing so instead of assigning the Engineer to work on components as a whole, I would have the Engineer focus on the SASS and HTML files.
+
+Leadership Principle - Insist on the highest standard, Microsoft
+q: What task did you face?
+a: It's not just one single tasks but more like an extension off of each task I've worked on at Microsoft. I always strive to learn where I could improve and ensure that my work on the next task will always be better than my work on the previous task. I've modified a lot of the ASPX files to follow proper HTML semantics, removed table stylling, and following a practice with documentation over each function stating the purpose of it and the types of parameters/return values. 
+
+q: Why was this important?
+a: This is important for myself as an Engineer and it is also important for other and futuer Engineers at Microsoft that may be working with the zone codebase.
+
+q: What was the scope of the project?
+a: The scope of this project is limited to all Engineers that may be dealing with the zone codebase now or in the future.
+
+q: What significant obstacles did you face?
+a: I faced a lot of questions about adding commentary and changing things over to semantic HTML. I explained the importance behind the in code documentation in case anyone else ever dives into the codebase or something happens months down the road and I have to revisit some old code. With regards to semantics I reasoned that it was necessary as our user base is elderly and a lot of people may be using assitive screen reading technologies and proper semantics will lead to a positive user experience. I tested out my semantic HTML changes with an online screen reader extension (ChromeVox) for Chrome.
+
+q: How did you set priorites?
+a: With the start of each task, if there's any sort of HTML that will be added I think about as to whether or not utilizing semantic HTML will be beneficial or not. There is a thing such as too many semantic elements in a page. Not every element needs to have semantics as this could lead to a horrendous user experience for those with assistive technologies. Bottom line is that consideration of the HTML tags to use is very important as the user should always come first.
+
+q: How was success measured?
+a: Success is hard to measure in this sense as I don't receive nor get notified of each user complaint/comment. The best way to determine success would be from the good or bad feedback about the page layout or navigation throughout a page on the site.
+
+q: What tradeoffs were made?
+a: The biggest tradeoff is time, but the payout will be worth it! Quality is very crucial for retaining our customers.
+
+q: What lessons were learned?
+a: I learned why the zone code base is the way it is due to lack of communication from previous developer to pervious developer. Documentation, semantics, and good coding practices prevent reworks and/or prolonged code fixes.
+
+q: What would you have done differently?
+a: If I could go back to the start of the Zone project (15+ years ago) I would insist on thorough documentation, as semantic HTML wasn't available at the time. If I could go back in time to when floats were being used I would urge the developers to use floats for styling rather than table elements as one should keep the HTML separate from the CSS.
+
+Leadership Principle - Think Big, Microsoft
+q: What task did you face?
+a: The task is the infinity scroller that I'm currently developing for the front page of zone.msn.com.
+
+q: Why was this important?
+a: This is important as it sets the path for future engineers to come. 
+
+q: What was the scope of the project?
+a: The scope of this is bound to the team of Engineers working on zone.msn.com.
+
+q: What significant obstacles did you face?
+a: The most difficult obstacle was trying to untangle the webs of backend codebase of zone. The codebase is 15+ years old and definitely has a lot of repeated/unused/undocumented/poorly named code.
+
+q: How did you set priorites?
+a: Priority number one was trying to replicate the mobile friendly design for IE.
+
+q: How was success measured?
+a: Success will be measured by telemetry hit on the ads on the home page as well as the number of games hit, per day, on the scroller.
+
+q: What tradeoffs were made?
+a: Quality is currently the biggest tradeoff as the first release is intended to be functional focused first.
+
+q: What lessons were learned?
+a: The biggest lesson was learning a lot about the interaction between C#, ASPX, and JavaScript. During this process I have learned more about controllers, how the codebase is laid out, and MVC.
+
+q: What would you have done differently?
+a: For the future, I will know where to look in terms of the project for modifying various controllers that impact certain views.
+
 Leadership Principle - Bias of Action
 q:What task did you face?
 a:
+
 q:Why was this important?
 a:
+
 q:What was the scope of the project?
 a:
+
 q:What significant obstacles did you face?
 a:
+
 q:How did you set priorites?
 a:
+
 q:How was success measured?
 a:
+
 q:What tradeoffs were made?
 a:
+
 q:What lessons were learned?
 a:
+
 q:What would you have done differently?
 a:
+
 Leadership Principle - Frugality
 q:What task did you face?
 a:
